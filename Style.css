@@ -1,0 +1,103 @@
+/*colors and fonts*/
+
+body{
+background-color: #F6F9FC;
+background-image: url(images/profile-picture-background.png);
+color:rgb(30,30,30); 
+font-family: 'Lora', serif;
+font-size:15px;
+font-weight:lighter;
+width: 700px;
+margin: 40px auto;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+color:rgb(45, 43, 78);
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+h2{
+color:rgba(250, 83, 0, 0.75);
+font-size: 24px;
+font-weight:lighter;
+}
+
+a{
+	text-decoration:none;
+	color:rgb(9, 142, 232);
+	font-weight:bold;
+}
+
+a:hover{
+	color: rgba(250, 83, 0, 0.75);
+	font-weight:bold;
+}
+
+
+/*Custom design with class*/
+
+@media (max-width:760px){
+	.container:{
+		width:500px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.container{
+	width: 700px
+	margin: 40px auto;
+}
+.img-circle{
+border-radius:50%;
+}
+.card-white{
+text-align:center;
+}
+.text-center{
+	text-align: center; 
+}
+
+.btn-blue{
+background-color: rgb(18, 72, 234);
+color : white;
+padding:10px 20px;
+border-radius:5px;
+}
+
+.btn-blue:hover{
+background-color:#FC9056;
+color:white;
+}
+
+
+.list-inline{
+list-style: none;
+padding-left:0px;
+
+}
+
+.list-inline li {
+display:inline;
+}
+
+.list-inline i {
+font-size : 50px;
+padding:13px;
+}
+
+#introduction h2 {
+margin-bottom:40px;
+}
+
+
